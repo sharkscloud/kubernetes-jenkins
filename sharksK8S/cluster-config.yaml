@@ -7,7 +7,10 @@ metadata:
 
 nodeGroups:
   - name: Sharks-ng
-    instanceType: t2.medium
-    desiredCapacity: 3
+    instanceType: t2.small
+    desiredCapacity: 2
     ssh:
       publicKeyName: eks
+
+
+Password1$
